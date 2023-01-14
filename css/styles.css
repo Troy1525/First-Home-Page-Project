@@ -1,0 +1,240 @@
+body {
+    background-image: url(../js/store.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*background-blend-mode: hard-light;*/
+    padding: 2rem;
+    background-color: snow;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 100%;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: snow;
+    text-shadow: 2px 2px black;
+}
+
+.content{
+    background: snow;
+    display: flex;
+    width: 70vw;
+    padding: 3rem;
+    box-shadow: 0 0 3rem rgba(0, 0, 0 , 0.15);
+    position: relative;
+    align-items: end;
+    justify-self: flex-end;
+}
+.navbar-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
+    background: hsl(0 ,0% ,100%,.1);
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar-links li a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px silver;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.navbar-links li a:hover{
+    color: goldenrod;
+    transition: .3s;
+
+}
+
+.sale{  
+    background-color: rgb(152, 170, 166);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+
+    background-image: url(../js/sale.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: hard-light;
+    opacity: .95;
+    padding: 3rem;
+}
+
+button {
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: snow;
+    text-shadow: 0 0 .25rem gold;
+    position: absolute;
+    background-color: darkred;
+    border-radius: .5rem;
+    border-color: gold;
+    margin-top: 7rem;
+    cursor: pointer;
+}
+
+button:hover{
+    color: gold;
+    transition: .3s;
+}
+section {
+    display: grid;
+    gap: 1rem;
+
+}
+article {
+    flex: 1;
+}
+.engage {
+    background-color: rgb(152, 170, 166);
+    font-size: 5rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    margin-top: 1rem;
+    font-style: italic;
+
+    background-image: url(../js/engage1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: hard-light;
+    opacity: .95;
+    overflow: hidden;
+
+    padding: 4rem;
+
+}
+
+.engage a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 2px blanchedalmond;
+}
+
+.engage a:hover{
+    color: goldenrod;
+    transition: 0.3s;
+}
+
+.watch {
+    background-color: rgb(152, 170, 166);
+    font-size: 5rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    font-style: italic;
+
+    background-image: url(../js/watch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: hard-light;
+    opacity: .95;
+    overflow: hidden;
+
+    padding: 4rem;
+    padding-bottom: 5rem;
+    margin-top: 1rem;
+}
+
+.watch a{
+    text-decoration:none;
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 2px blanchedalmond;
+}
+
+.watch a:hover{
+    color: goldenrod;
+    transition: 0.3s;
+}
+
+
+.diamond {
+    background-color: rgb(152, 170, 166);
+    font-size: 5rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    font-style: italic;
+    overflow: hidden;
+
+    background-image: url(../js/diamond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: hard-light;
+    opacity: .90;
+
+    padding: 4rem;
+    padding-bottom: 5rem;
+    margin-top: 1rem;
+}
+
+.diamond a{
+    text-decoration:none;
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 2px blanchedalmond;
+}
+
+.diamond a:hover{
+    color: goldenrod;
+    transition: 0.3s;
+}
+
+footer {
+    display: flex;
+}
+
+footer div{
+    margin-top: 1rem;
+    flex: 1;
+    color: snow;
+    text-shadow: 1px 1px black;
+    font-style: italic;
+    font-weight: bold;
+}
+.footer-logo{
+    position: absolute;
+    margin-top: 1rem;
+    width: 7rem;
+}
+img {
+    width: 5rem;
+}
+
+
+
+
+
+
+
